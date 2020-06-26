@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet"  href="style.css"  />
+
+</head>
+<body>
+
+<div id="login" class="login_container">
+    <h1>Chat Without Worring</h1>
+    <input id="user_name" placeholder="Enter your login id">
+    <input id="user_password" placeholder="Enter your password">
+    <button id="login_btn">LogIn</button>
+
+</div> 
+
+<div id="chatBox">
+    <h1>Send Msg</h1>
+    <input id="towhom" placeholder="to whom">
+    <input type="text" id="inpmsg">
+    <button id="inpbtn">Send</button>
+    <ul id="ullist"></ul>
+</div>
+
+</body>
+</html>
